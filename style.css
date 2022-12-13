@@ -103,7 +103,7 @@ hr {
 .first-sec {
     display: flex;
     color: #969ba1;
-    width: 70%;
+    width: 50%;
 }
 .first-sec div:first-of-type p:first-child {
     font-size: 28px;
@@ -126,29 +126,88 @@ hr {
 .first-sec div:nth-of-type(2) button {
     background-color: #46474C;
     border-color: white;
-    width: 100px;
+    width: 75px;
     height: 45px;
-    border-radius: 30px;
+    border-radius: 25px;
     
 }
 
 .grid-container {
-    width: 100%;
+    /* width: 100%; */
     height: 10%;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 140px 140px 140px 140px;
     gap: 2px;
 }
 .grid-container img {
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-radius: 10px;
+    /* border-radius: 30px; */
 }
 .items-1 {
     grid-column: span 2;
+    border-top-left-radius: 30px;
+}
+.items-2 {
+    border-top-right-radius: 30px;
+}
+.items-3 {
+    border-bottom-left-radius: 30px;
+}
+.items-5 {
+    border-bottom-right-radius: 30px;
 }
 .items-2, .items-3 {
     grid-column: span 2;
 }
 
+.second-sec {
+    display: flex;
+    justify-content: space-between;
+}
+.sky-sport {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #bdc1c6;
+}
+.sky-sport-div img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    
+}
+.sky-sport-footnote {
+    margin: 10px;
+}
+.sky-sport-logo {
+    display: flex;
+}
+.sky-sport-logo img {
+    border-radius: 20px;
+}
+.sky-sport-logo span {
+    align-self: center;
+    margin-left: 10px;
+    color: #9aa0a6;
+}
+.sky-sport-footnote h3 {
+    color: white;
+} 
+.sky-sport-footnote p {
+    color: #9aa0a6;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-right: 150px;
+}
+.info-height, .info-age {
+    width: 50%
+}
+.more.info {
+    width: 100%;
+}
