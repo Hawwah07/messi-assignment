@@ -131,13 +131,22 @@ hr {
     border-radius: 25px;
     
 }
+.second-sec {
+ margin-left: -120px;
+ padding-left: 60px;
+ margin-right: 50px;
+ padding-right: -100px;
+  background-color: white;
+  background-image: linear-gradient(180deg, #202124,  #202124, rgb(77, 76, 76));
 
+}
 .grid-container {
     /* width: 100%; */
     height: 10%;
     display: grid;
     grid-template-columns: 140px 140px 140px 140px;
     gap: 2px;
+    margin-bottom: 30px;
 }
 .grid-container img {
     width: 100%;
@@ -164,14 +173,16 @@ hr {
 
 .second-sec {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .sky-sport {
     width: 250px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    border: 1px solid #bdc1c6;
+    /* border: 1px solid #bdc1c6; */
+    margin-bottom: 30px;
+    background-color: #46474C;
 }
 .sky-sport-div img {
     border-top-left-radius: 20px;
@@ -202,12 +213,21 @@ hr {
 .info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     width: 20%;
-    margin-right: 150px;
+    margin-right: 10px;
+    margin-bottom: 30px;
 }
 .info-height, .info-age {
-    width: 50%
+    width: 45%;
+    background-color: #46474C;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.more.info {
+.more-info {
     width: 100%;
+    background-color: #46474C;
+    border-radius: 20px;
+    padding: 30px;
 }
