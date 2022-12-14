@@ -98,6 +98,7 @@ hr {
 
 .main-sec {
     margin-left: 190px;
+    margin-right: 100px;
 }
 
 .first-sec {
@@ -125,7 +126,7 @@ hr {
 }
 .first-sec div:nth-of-type(2) button {
     background-color: #46474C;
-    border-color: white;
+    border: none;
     width: 75px;
     height: 45px;
     border-radius: 25px;
@@ -134,7 +135,7 @@ hr {
 .second-sec {
  margin-left: -120px;
  padding-left: 60px;
- margin-right: 50px;
+ margin-right: -59px;
  padding-right: -100px;
   background-color: white;
   background-image: linear-gradient(180deg, #202124,  #202124, rgb(77, 76, 76));
@@ -230,4 +231,29 @@ hr {
     background-color: #46474C;
     border-radius: 20px;
     padding: 30px;
+}
+
+.third-sec {
+    display: flex;
+    width: 100%;
+   
+}
+.third-sec-first-div {
+    width: 60%;
+}
+.third-sec-second-div {
+    width: 40%;
+    border-left: 1px solid white;
+}
+.arrow1 svg {
+    width: 30px;
+    height: 30px
+}
+.checkmark-batch svg {
+    width: 20px;
+}
+.arrow2 svg{
+    width: 20px;
+    height: 20px;
+    fill: #9aa0a6;
 }
