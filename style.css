@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
 }
 img {
     width: 10%;
@@ -239,15 +241,23 @@ hr {
    
 }
 .third-sec-first-div {
-    width: 60%;
+    width: 70%;
+    color:#bdc1c6;
+}
+.third-sec-first-div hr {
+    border-color: #bdc1c653;
+    border-top: none;
+    width: 90%;
+    float: left;
 }
 .third-sec-second-div {
-    width: 40%;
-    border-left: 1px solid white;
+    width: 30%;
+    border-left: 1px solid #bdc1c653;
 }
 .arrow1 svg {
     width: 30px;
-    height: 30px
+    height: 30px;
+    fill:#bdc1c6;
 }
 .checkmark-batch svg {
     width: 20px;
@@ -278,6 +288,7 @@ hr {
     border-radius: 20px;
     padding: 10px;
     font-size: 17px;
+    margin-bottom: 10px;
 }
 .tsd1-1 a:hover {
     background-color:#323337;
@@ -289,4 +300,89 @@ hr {
 .tsd1-1 span svg {
     fill: #4487f6;
     vertical-align: middle;
+}
+.tsd2-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.tsd2-1 h1 {
+  font-size: 25px;
+}
+.tsd2-1 span {
+    border: 1px solid #9aa0a6;
+    align-self: center;
+    padding: 4px;
+    border-radius: 100px;
+}
+.tsd2-table {
+    width: 100%;
+    /* border-bottom: 1px solid #bdc1c6; */
+    border-collapse: collapse;
+    line-height: 30px;
+}
+.tsd2-th1 {
+    text-align: left;
+    color: #8f9194;
+    border-bottom: 0.1px solid #bdc1c653;
+}
+.tsd2-th2,.tsd2-th3 {
+    text-align: center;
+    color: #8f9194;
+    border-bottom: 0.1px solid #bdc1c653;
+}
+.tsd2-td1 {
+    text-align: left;
+    border-bottom: 0.1px solid #bdc1c653;
+}
+.tsd2-td1 span {
+    display: block;
+    color: #8f9194;
+}
+.tsd2-td2, .tsd2-td3 {
+    text-align: center;
+    border-bottom: 0.1px solid #bdc1c653;
+}
+.tsd2-profiles {
+    font-size: large;
+}
+.tsd2-profiles-pic {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+}
+.tsd2-profiles-pic div img {
+    width: 30px;
+}
+.tsd2-profiles-pic div p {
+    font-size: medium;
+}
+.tsd2 hr {
+    border: 0.1 solid #bdc1c653;
+    background-color: #bdc1c653;
+}
+.tsd2-people-pic {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tsd2-people-pic div {
+    width: 40%;
+}
+.tsd2-people-pic div img {
+    width: 90%;
+    border-radius: 10%;
+}
+.tsd2-seemore {
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: #46474C;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.tsd2-seemore span svg{
+    width: 20px;
+    vertical-align: middle;
+    fill: white;
+    margin-left: 10px;
 }
