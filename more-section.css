@@ -130,3 +130,53 @@
     text-decoration: none;
     color: #bdc1c6;
 }
+.tsdf-more-pages {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.tsdf-more-pages a {
+    text-decoration: none;
+    color: #bdc1c6;
+    padding: 15px;
+    width: 300px;
+    background-color: #303134;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+.tsdf-more-pages a svg {
+    width: 15px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.tsdf-table {
+   position: relative;
+   left: 33%;
+   margin-bottom: 30px;
+}
+
+.tsdf-td {
+    vertical-align: top;
+    text-align: center;
+    color: #8ab4f8;
+}
+.tsdf-td span img {
+    width: 20px;
+    fill: white;
+    position: relative;
+    top:-5px
+}
+.tsdf-td span {
+    color: white;
+    font-weight: bold;
+}
+.tsdf-td span svg {
+    width: 20px;
+}
+.tsdf-td:last-of-type {
+    font-size: small;
+}
