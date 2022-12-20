@@ -2,6 +2,10 @@
     float: right;
     width: 30px;
 }
+.arrow4 {
+    width: 30px;
+    vertical-align: middle;
+}
 .menu4 {
     width: 23px;
     vertical-align: middle;
@@ -52,4 +56,77 @@
     font-size: small;
     background-color: #202124;
     padding: 10px;
+}
+.tsdf-wiki {
+    width: 90%;
+}
+.tsdf-wiki-list {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.tsdf-wiki a {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+.tsdf-video {
+    width: 90%;
+}
+.tsdf-video-sig {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 0.1px solid #bdc1c653;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tsdf-video-sig:first-of-type {
+    border-top: 0.1px solid #bdc1c653;
+}
+.tsdf-video-sig:last-of-type {
+    padding-bottom: 50px;
+}
+.tsdf-video-sig img {
+    width: 100px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.tsdf-video-text {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.tsdf-video-text a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+.tsdf-video-text p {
+    font-size: small;
+    
+}
+.tsdf-video-text p:nth-of-type(2) {
+    line-height: 0.1px;
+    margin-top: 0px;
+}
+.tsdf-video button {
+    background-color: #303134;
+    color: #bdc1c6;
+    border: none;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+    top: -40px;
+    left: 150px;
+}
+.tsdf-video button span svg {
+    width: 20px;
+}
+.tsdf-site {
+    width: 90%;
+}
+.tsdf-site a {
+    text-decoration: none;
+    color: #bdc1c6;
 }

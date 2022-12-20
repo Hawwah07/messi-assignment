@@ -253,6 +253,7 @@ hr {
 .third-sec-second-div {
     width: 30%;
     border-left: 1px solid #bdc1c653;
+    height: 100%;
 }
 .arrow1 svg {
     width: 30px;
