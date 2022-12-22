@@ -59,6 +59,7 @@
 }
 .tsdf-wiki {
     width: 90%;
+    margin-bottom: 40px;
 }
 .tsdf-wiki-list {
     display: flex;
@@ -67,8 +68,19 @@
     height: 50px;
     flex-wrap: wrap;
 }
-.tsdf-wiki a {
+.tsdf-site-list  {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.tsdf-wiki h1 {
     color: #8ab4f8;
+}
+.tsdf-wiki a {
+    color: #bdc1c6;
     text-decoration: none;
 }
 .tsdf-video {
@@ -125,6 +137,7 @@
 }
 .tsdf-site {
     width: 90%;
+    margin-bottom: 40px;
 }
 .tsdf-site a {
     text-decoration: none;
@@ -135,6 +148,7 @@
     flex-direction: column;
     height: 250px;
     flex-wrap: wrap;
+    margin-top: 60px;
     margin-bottom: 40px;
 }
 .tsdf-more-pages a {

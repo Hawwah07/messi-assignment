@@ -106,33 +106,41 @@ hr {
 .first-sec {
     display: flex;
     color: #969ba1;
-    width: 50%;
+    width: 69%;
+    
 }
 .first-sec div:first-of-type p:first-child {
-    font-size: 28px;
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: bolder;
 }
-.first-sec div:first-of-type p:last-child  {
-    
+.first-sec div:first-of-type p:first-child span {
+    font-size: 16px; 
+    font-weight: lighter; 
+}
+.first-sec div:first-of-type p:first-child span span img {
+    vertical-align: middle;
 }
 .first-sec div:first-of-type p:last-child span img {
     width: 13px;
     margin-left: 3px;
 }
-
 .first-sec div:nth-of-type(2) {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 30px;
     width: 50%;
     justify-content: space-between;
 }
 .first-sec div:nth-of-type(2) button {
     background-color: #46474C;
+    color:#9aa0a6;
     border: none;
-    width: 75px;
+    width: 95px;
     height: 45px;
     border-radius: 25px;
-    
+    font-weight: bold;
+    font-size: 14px;   
 }
 .second-sec {
  margin-left: -120px;
@@ -227,22 +235,50 @@ hr {
     border-radius: 20px;
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #bdc1c6
+}
+.info-height h1 {
+    font-size: larger;
 }
 .more-info {
     width: 100%;
     background-color: #46474C;
     border-radius: 20px;
-    padding: 30px;
+    padding: 0px 20px;
+    display: flex;
+    text-decoration: none;
+    color: #969ba1;
+    align-items: center;
+    justify-content: space-between;
+}
+.more-info div {
+    width: 60%
+}
+.more-info div h3 {
+    color:#bdc1c6;
+}
+.more-info-main-pic {
+    width: 30%;
+    height: 70%;
+    border-radius: 15px;
 }
 
 .third-sec {
     display: flex;
     width: 100%;
-   
+   margin-top: 40px;
 }
 .third-sec-first-div {
     width: 70%;
     color:#bdc1c6;
+}
+.first-h1 {
+    font-size: 30px;
+    color:#bdc1c6;
+    line-height: 5px;
 }
 .third-sec-first-div hr {
     border-color: #bdc1c653;
